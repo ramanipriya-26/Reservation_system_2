@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/lineup"
+    android:layout_centerInParent="true"
+    android:background="@color/white"
+    android:gravity="center"
+    android:minWidth="320dp"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    app:layout_constrainedHeight="true"
+
+    app:layout_constrainedWidth="true"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:context=".FormTicket">
+
+    <TextView
+        android:id="@+id/BookingFor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Booking Form for  "
+        android:textColor="#009688"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/journey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Jouney Form for  "
+        android:textColor="#009688"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/input_nameF"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sub_bg"
+        android:drawableStart="@drawable/account"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="12dp" />
+
+
+    <EditText
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sub_bg"
+        android:drawableStart="@drawable/email"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Email-ID"
+        android:inputType="textWebEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/input_contactno"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sub_bg"
+        android:drawableStart="@drawable/phone"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/input_not"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sub_bg"
+        android:drawableStart="@drawable/ticket"
+        android:drawableLeft="@drawable/ticket"
+        android:drawablePadding="15dp"
+        android:ems="10"
+        android:hint="@string/number_of_tickets"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:paddingLeft="20dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/DoJ"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:text="AVC"
+        android:textSize="14dp"
+        app:fontFamily="@font/roboto_mono" />
+
+    <Button
+        android:id="@+id/BtnGoTicket"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/greenbttn"
+        android:text="Book Ticket"
+        android:textColor="#fff"
+        app:backgroundTint="#009688" />
+
+</LinearLayout>
+

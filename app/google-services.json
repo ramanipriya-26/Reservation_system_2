@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "227607480576",
+    "firebase_url": "https://railway-reservation-syst-52e87-default-rtdb.firebaseio.com",
+    "project_id": "railway-reservation-syst-52e87",
+    "storage_bucket": "railway-reservation-syst-52e87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227607480576:android:d302482b3cb2aff482cbe5",
+        "android_client_info": {
+          "package_name": "com.example.reservationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227607480576-0e7qead3oi9sc87l1j4hc5v1uimbj3a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGn8g3PbwODB1chvXb4mq5nEbV5iegqu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227607480576-0e7qead3oi9sc87l1j4hc5v1uimbj3a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:227607480576:android:9bccca154f8db6be82cbe5",
+        "android_client_info": {
+          "package_name": "com.example.reservationsystem2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "227607480576-0e7qead3oi9sc87l1j4hc5v1uimbj3a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGn8g3PbwODB1chvXb4mq5nEbV5iegqu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "227607480576-0e7qead3oi9sc87l1j4hc5v1uimbj3a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
